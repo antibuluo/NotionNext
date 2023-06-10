@@ -183,8 +183,8 @@ const BLOG = {
     //       'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     // },
     {
-      name: '纯音乐-起风了',
-      artist: 'Falcom Sound Team jdk',
+      name: '起风了',
+      artist: '纯音乐',
       url: 'https://m.kugou.com/share/?chain=6lVpa85BcV3&id=6lVpa85BcV3',
       cover:
           'https://p3fx.kgimg.com/stdmusic/240/20211225/20211225164942708856.jpg'
