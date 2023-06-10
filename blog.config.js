@@ -185,9 +185,16 @@ const BLOG = {
     {
       name: '起风了',
       artist: '纯音乐',
-      url: 'https://m10.music.126.net/20230610203211/d88dee51b4613de778cabc3a8e34e949/yyaac/0e5b/5309/5459/9191c83952dcc043f1a4c31cba4a1986.m4a',
+      url: 'https://music.163.com/song/media/outer/url?id=1411774831.mp3',
       cover:
-          'https://p3fx.kgimg.com/stdmusic/240/20211225/20211225164942708856.jpg'
+        'https://p3fx.kgimg.com/stdmusic/240/20211225/20211225164942708856.jpg'
+    },
+    {
+      name: '城南花已開',
+      artist: '纯音乐',
+      url: 'https://music.163.com/song/media/outer/url?id=151586219.mp3',
+      cover:
+        'http://p1.music.126.net/O6P1gADLGOD4ndX3-idjuA==/109951167877856391.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
@@ -202,7 +209,7 @@ const BLOG = {
 
   // twikoo
   COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://blog-twikoo-zeabur.damao.me', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
-  COMMENT_TWIKOO_COUNT_ENABLE: process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || false, // 博客列表是否显示评论数
+  COMMENT_TWIKOO_COUNT_ENABLE: process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || true, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL: process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL || 'https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js', // twikoo客户端cdn
 
   // utterance
