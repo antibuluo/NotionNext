@@ -168,24 +168,31 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'random', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
+    // {
+    //   name: '风を共に舞う気持ち',
+    //   artist: 'Falcom Sound Team jdk',
+    //   url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+    //   cover:
+    //       'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    // },
+    // {
+    //   name: '王都グランセル',
+    //   artist: 'Falcom Sound Team jdk',
+    //   url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+    //   cover:
+    //       'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    // },
     {
-      name: '风を共に舞う気持ち',
+      name: '纯音乐-起风了',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      url: 'https://m.kugou.com/share/?chain=6lVpa85BcV3&id=6lVpa85BcV3',
       cover:
-          'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
-    {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-      cover:
-          'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+          'https://p3fx.kgimg.com/stdmusic/240/20211225/20211225164942708856.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
-      process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'netease', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
+      process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_SERVER || 'kugou', // 音乐平台，[netease, tencent, kugou, xiami, baidu]
   MUSIC_PLAYER_METING_ID:
       process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING_ID || '60198', // 对应歌单的 id
   MUSIC_PLAYER_METING_LRC_TYPE:
