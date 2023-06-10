@@ -14,7 +14,7 @@ class MyDocument extends Document {
     return (
             <Html lang={BLOG.LANG}>
                 <Head>
-                    <link rel='icon' href='/favicon_1.ico' />
+                    <link rel='icon' href='/favicon.ico' />
                     <CommonScript />
                 </Head>
 
